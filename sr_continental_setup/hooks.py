@@ -8,7 +8,7 @@ app_license = "mit"
 # Apps
 # ------------------
 
-# required_apps = []
+required_apps = ["kamra"]
 
 # Each item in the list will be shown as an app in the apps page
 # add_to_apps_screen = [
@@ -96,7 +96,7 @@ app_license = "mit"
 # ------------
 
 # before_install = "sr_continental_setup.install.before_install"
-# after_install = "sr_continental_setup.install.after_install"
+# after_install: see bottom of file
 
 # Uninstallation
 # ------------
@@ -272,3 +272,15 @@ app_license = "mit"
 # List of apps whose translatable strings should be excluded from this app's translations.
 # ignore_translatable_strings_from = []
 
+
+fixtures = [
+	"Property", "Room Type", "Room", "Sellable Unit", "Rate Plan", "Meal Plan",
+	"Transaction Code", "POS Outlet", "Menu Item", "Laundry Rate", "Reason Code",
+	"Season", "Turnover Profile", "Rate Guardrail", "Hurdle Rate", "Exchange Rate",
+	"Discount Voucher", "Revenue Budget", "Corporate Account", "City Ledger Account",
+	"Travel Agent", "Venue", "Banquet Dish", "Banquet Menu", "Banquet Service Item",
+	"Banquet Checklist Template", "Experience",
+]
+
+after_install = "sr_continental_setup.install.after_install"
+after_migrate = ["sr_continental_setup.install.after_migrate"]

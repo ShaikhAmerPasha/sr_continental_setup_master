@@ -1,0 +1,15 @@
+[
+ {
+  "agent_name": "Sunrise Travels (SAMPLE)",
+  "agent_type": "Travel Agent",
+  "commission_pct": 10.0,
+  "contact_email": "bookings@sunrise.example",
+  "contact_name": "Imran Khan",
+  "contact_phone": "+91 98450 00003",
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Travel Agent",
+  "modified": "2026-10-10 12:28:17.578613",
+  "name": "Sunrise Travels (SAMPLE)"
+ }
+]

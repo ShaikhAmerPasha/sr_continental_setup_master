@@ -1,0 +1,30 @@
+[
+ {
+  "buy_rate": 83.2,
+  "currency": "USD",
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Exchange Rate",
+  "max_exchange": 50000.0,
+  "modified": "2026-10-10 12:28:17.688420",
+  "name": "l30uuqemq3",
+  "property": "SR Continental",
+  "rate_date": "2026-10-10",
+  "sell_rate": 84.5,
+  "service_tax_pct": 18.0
+ },
+ {
+  "buy_rate": 90.1,
+  "currency": "EUR",
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Exchange Rate",
+  "max_exchange": 50000.0,
+  "modified": "2026-10-10 12:28:17.701060",
+  "name": "l312slia8q",
+  "property": "SR Continental",
+  "rate_date": "2026-10-10",
+  "sell_rate": 91.8,
+  "service_tax_pct": 18.0
+ }
+]

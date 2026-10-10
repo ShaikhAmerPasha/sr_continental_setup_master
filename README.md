@@ -1,33 +1,25 @@
-### Sr Continental Setup
+# SR Continental Setup
 
-Setup configuration
+Frappe app that loads the starter master data for SR Continental (a Kamra PMS hotel) when it is installed on a new site.
 
-### Installation
-
-You can install this app using the [bench](https://github.com/frappe/bench) CLI:
-
-```bash
-cd $PATH_TO_YOUR_BENCH
-bench get-app $URL_OF_THIS_REPO --branch version-16
-bench install-app sr_continental_setup
+## Install on a new site
 ```
-
-### Contributing
-
-This app uses `pre-commit` for code formatting and linting. Please [install pre-commit](https://pre-commit.com/#installation) and enable it for this repository:
-
-```bash
-cd apps/sr_continental_setup
-pre-commit install
+bench get-app kamra <kamra repo url>
+bench get-app sr_continental_setup <this repo url>
+bench new-site <site> 
+bench --site <site> install-app payments kamra sr_continental_setup
+bench --site <site> enable-scheduler
 ```
+Kamra must be installed first (`required_apps` enforces it).
 
-Pre-commit is configured to use the following tools for checking and formatting your code:
+## What loads
+- `fixtures/*.json`: property, room types, rooms, sellable units, rate plans, meal plans, transaction codes, POS outlets, menu items, laundry rates, reason codes, seasons, turnover profiles, guardrails, hurdle rates, exchange rates, vouchers, revenue budgets, corporate account, city ledger account, travel agent, venues, banquet dishes, menus, services and checklists, experiences.
+- `install.py` creates the 4 staff users (reception, restaurant, housekeeping, finance), the 2 cashiers, and sets the hotel date to today.
+- Staff users get **no password**. Set one for each user after install.
 
-- ruff
-- eslint
-- prettier
-- pyupgrade
-
-### License
-
-mit
+## Notes
+- Fixtures load again on every `bench migrate` and overwrite edits made on the site.
+- Ingredients, ingredient stock and menu recipes are left out on purpose (their names are numbered by the site).
+- After `bench export-fixtures`, run `python3 clean_fixtures.py`. It removes test leftovers (business date, recipes, city ledger balance, voucher use counts, dirty rooms, duplicate checklists).
+- Only master data is in the app. No reservations, bills, orders, guests, tills or housekeeping tasks are installed.
+- Payment gateway, channel connections and ZATCA are not set up.

@@ -1,0 +1,32 @@
+[
+ {
+  "buffer_after_ready_minutes": 5,
+  "clean_duration_minutes": 30,
+  "docstatus": 0,
+  "doctype": "Turnover Profile",
+  "inspect_duration_minutes": 10,
+  "is_default": 1,
+  "modified": "2026-10-10 12:28:17.591442",
+  "name": "SR Continental-Standard",
+  "profile_name": "Standard",
+  "property": "SR Continental",
+  "ready_marked_by": "Housekeeping",
+  "requires_inspection": 1,
+  "same_day_turn_allowed": 1
+ },
+ {
+  "buffer_after_ready_minutes": 10,
+  "clean_duration_minutes": 60,
+  "docstatus": 0,
+  "doctype": "Turnover Profile",
+  "inspect_duration_minutes": 15,
+  "is_default": 0,
+  "modified": "2026-10-10 12:28:17.605188",
+  "name": "SR Continental-Suite Deep Clean",
+  "profile_name": "Suite Deep Clean",
+  "property": "SR Continental",
+  "ready_marked_by": "Hotel Admin",
+  "requires_inspection": 1,
+  "same_day_turn_allowed": 0
+ }
+]

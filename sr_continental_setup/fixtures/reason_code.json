@@ -1,0 +1,189 @@
+[
+ {
+  "category": "Void",
+  "code": "VOID01",
+  "description": "Entered in error",
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Reason Code",
+  "modified": "2026-10-10 12:13:15.771494",
+  "name": "VOID01",
+  "requires_supervisor": 1
+ },
+ {
+  "category": "Adjust",
+  "code": "ADJ01",
+  "description": "Guest complaint adjustment",
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Reason Code",
+  "modified": "2026-10-10 12:13:15.783460",
+  "name": "ADJ01",
+  "requires_supervisor": 1
+ },
+ {
+  "category": "Rate Change",
+  "code": "RATE01",
+  "description": "Manager rate override",
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Reason Code",
+  "modified": "2026-10-10 12:13:15.793379",
+  "name": "RATE01",
+  "requires_supervisor": 1
+ },
+ {
+  "category": "Refund",
+  "code": "REF01",
+  "description": "Guest refund",
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Reason Code",
+  "modified": "2026-10-10 12:13:15.802381",
+  "name": "REF01",
+  "requires_supervisor": 1
+ },
+ {
+  "category": "Paid Out",
+  "code": "PO01",
+  "description": "Petty cash paid out",
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Reason Code",
+  "modified": "2026-10-10 12:13:15.811459",
+  "name": "PO01",
+  "requires_supervisor": 0
+ },
+ {
+  "category": "NC",
+  "code": "NC01",
+  "description": "No charge / complimentary",
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Reason Code",
+  "modified": "2026-10-10 12:13:15.819811",
+  "name": "NC01",
+  "requires_supervisor": 1
+ },
+ {
+  "category": "Void",
+  "code": "VOID-GUEST",
+  "description": "Guest declined / changed mind",
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Reason Code",
+  "modified": "2026-10-10 13:09:05.149098",
+  "name": "VOID-GUEST",
+  "requires_supervisor": 0
+ },
+ {
+  "category": "Void",
+  "code": "VOID-ERR",
+  "description": "Posting error",
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Reason Code",
+  "modified": "2026-10-10 13:09:05.150300",
+  "name": "VOID-ERR",
+  "requires_supervisor": 0
+ },
+ {
+  "category": "Void",
+  "code": "VOID-DUP",
+  "description": "Duplicate charge",
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Reason Code",
+  "modified": "2026-10-10 13:09:05.151107",
+  "name": "VOID-DUP",
+  "requires_supervisor": 0
+ },
+ {
+  "category": "Adjust",
+  "code": "ADJ-COMP",
+  "description": "Complimentary adjustment",
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Reason Code",
+  "modified": "2026-10-10 13:09:05.151924",
+  "name": "ADJ-COMP",
+  "requires_supervisor": 1
+ },
+ {
+  "category": "Adjust",
+  "code": "ADJ-RATE",
+  "description": "Rate correction",
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Reason Code",
+  "modified": "2026-10-10 13:09:05.152716",
+  "name": "ADJ-RATE",
+  "requires_supervisor": 0
+ },
+ {
+  "category": "Rate Change",
+  "code": "RATE-PROMO",
+  "description": "Promotional rate change",
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Reason Code",
+  "modified": "2026-10-10 13:09:05.153418",
+  "name": "RATE-PROMO",
+  "requires_supervisor": 0
+ },
+ {
+  "category": "Rate Change",
+  "code": "RATE-MGR",
+  "description": "Manager rate override",
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Reason Code",
+  "modified": "2026-10-10 13:09:05.154150",
+  "name": "RATE-MGR",
+  "requires_supervisor": 1
+ },
+ {
+  "category": "Refund",
+  "code": "REF-DEP",
+  "description": "Security deposit refund",
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Reason Code",
+  "modified": "2026-10-10 13:09:05.154990",
+  "name": "REF-DEP",
+  "requires_supervisor": 0
+ },
+ {
+  "category": "Refund",
+  "code": "REF-OVER",
+  "description": "Overpayment refund",
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Reason Code",
+  "modified": "2026-10-10 13:09:05.155981",
+  "name": "REF-OVER",
+  "requires_supervisor": 0
+ },
+ {
+  "category": "Paid Out",
+  "code": "PO-VENDOR",
+  "description": "Vendor paid-out",
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Reason Code",
+  "modified": "2026-10-10 13:09:05.156951",
+  "name": "PO-VENDOR",
+  "requires_supervisor": 0
+ },
+ {
+  "category": "NC",
+  "code": "NC-MGMT",
+  "description": "Management NC",
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Reason Code",
+  "modified": "2026-10-10 13:09:05.157730",
+  "name": "NC-MGMT",
+  "requires_supervisor": 1
+ }
+]

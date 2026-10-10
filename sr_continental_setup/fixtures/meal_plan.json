@@ -1,0 +1,41 @@
+[
+ {
+  "code": "EP",
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Meal Plan",
+  "is_default": 1,
+  "label": "European Plan",
+  "modified": "2026-10-10 12:00:41.664880",
+  "name": "SR Continental-EP",
+  "price_per_adult": 500.0,
+  "price_per_child": 250.0,
+  "property": "SR Continental"
+ },
+ {
+  "code": "CP",
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Meal Plan",
+  "is_default": 0,
+  "label": "Continental Plan",
+  "modified": "2026-10-10 14:09:24.397619",
+  "name": "SR Continental-CP",
+  "price_per_adult": 1200.0,
+  "price_per_child": 750.0,
+  "property": "SR Continental"
+ },
+ {
+  "code": "MAP",
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Meal Plan",
+  "is_default": 0,
+  "label": "Modified American Plan",
+  "modified": "2026-10-10 14:09:24.433919",
+  "name": "SR Continental-MAP",
+  "price_per_adult": 1000.0,
+  "price_per_child": 500.0,
+  "property": "SR Continental"
+ }
+]

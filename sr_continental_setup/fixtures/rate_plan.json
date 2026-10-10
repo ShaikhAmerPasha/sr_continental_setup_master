@@ -1,0 +1,44 @@
+[
+ {
+  "cancellation_policy": "Free cancellation up to 2 days before arrival. Later cancellations and no-shows are charged the first night.",
+  "code": "STD",
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Rate Plan",
+  "is_default": 1,
+  "modified": "2026-10-10 12:13:15.622739",
+  "modifier_type": "Percent",
+  "modifier_value": 0.0,
+  "name": "SR Continental-STD",
+  "property": "SR Continental",
+  "rate_plan_name": "Standard Rate"
+ },
+ {
+  "cancellation_policy": "Free cancellation up to 1 day before arrival.",
+  "code": "CORP",
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Rate Plan",
+  "is_default": 0,
+  "modified": "2026-10-10 12:28:17.515948",
+  "modifier_type": "Percent",
+  "modifier_value": -10.0,
+  "name": "SR Continental-CORP",
+  "property": "SR Continental",
+  "rate_plan_name": "Corporate Rate"
+ },
+ {
+  "cancellation_policy": "No refund on cancellation or no show.",
+  "code": "NRF",
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Rate Plan",
+  "is_default": 0,
+  "modified": "2026-10-10 12:28:17.527265",
+  "modifier_type": "Percent",
+  "modifier_value": -15.0,
+  "name": "SR Continental-NRF",
+  "property": "SR Continental",
+  "rate_plan_name": "Non Refundable"
+ }
+]

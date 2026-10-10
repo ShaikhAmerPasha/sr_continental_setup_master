@@ -1,0 +1,26 @@
+[
+ {
+  "adr_target": 3500.0,
+  "docstatus": 0,
+  "doctype": "Revenue Budget",
+  "modified": "2026-10-10 12:28:17.738407",
+  "name": "l31afis956",
+  "occupancy_target": 70.0,
+  "period": "2026-10",
+  "property": "SR Continental",
+  "revpar_target": 2450.0,
+  "room_revenue_target": 1200000.0
+ },
+ {
+  "adr_target": 3700.0,
+  "docstatus": 0,
+  "doctype": "Revenue Budget",
+  "modified": "2026-10-10 12:28:17.751657",
+  "name": "l31j7omagj",
+  "occupancy_target": 75.0,
+  "period": "2026-11",
+  "property": "SR Continental",
+  "revpar_target": 2775.0,
+  "room_revenue_target": 1400000.0
+ }
+]

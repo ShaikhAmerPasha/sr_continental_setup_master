@@ -1,0 +1,50 @@
+[
+ {
+  "category": "Spa",
+  "description": null,
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Experience",
+  "duration": "60 minutes",
+  "experience_name": "Spa Massage 60 min",
+  "gst_rate": 18.0,
+  "image_url": null,
+  "modified": "2026-10-10 12:28:18.003325",
+  "name": "SR Continental-Spa Massage 60 min",
+  "price": 2500.0,
+  "property": "SR Continental",
+  "show_on_booking_page": 1
+ },
+ {
+  "category": "Tour",
+  "description": null,
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Experience",
+  "duration": "4 hours",
+  "experience_name": "City Heritage Tour",
+  "gst_rate": 18.0,
+  "image_url": null,
+  "modified": "2026-10-10 12:28:18.015677",
+  "name": "SR Continental-City Heritage Tour",
+  "price": 1800.0,
+  "property": "SR Continental",
+  "show_on_booking_page": 1
+ },
+ {
+  "category": "Transport",
+  "description": null,
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Experience",
+  "duration": "One way",
+  "experience_name": "Airport Pickup",
+  "gst_rate": 18.0,
+  "image_url": null,
+  "modified": "2026-10-10 12:28:18.026371",
+  "name": "SR Continental-Airport Pickup",
+  "price": 1200.0,
+  "property": "SR Continental",
+  "show_on_booking_page": 1
+ }
+]

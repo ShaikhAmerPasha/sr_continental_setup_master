@@ -1,0 +1,34 @@
+[
+ {
+  "adjustment_type": "Percent",
+  "adjustment_value": 30.0,
+  "days_of_week": null,
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Season",
+  "end_date": "2027-01-05",
+  "modified": "2026-10-10 12:13:07.775100",
+  "name": "SEA-00026",
+  "priority": 10,
+  "property": "SR Continental",
+  "room_type": null,
+  "season_name": "Peak Season (SAMPLE)",
+  "start_date": "2026-12-20"
+ },
+ {
+  "adjustment_type": "Percent",
+  "adjustment_value": -15.0,
+  "days_of_week": null,
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Season",
+  "end_date": "2027-09-15",
+  "modified": "2026-10-10 12:13:07.788569",
+  "name": "SEA-00027",
+  "priority": 5,
+  "property": "SR Continental",
+  "room_type": null,
+  "season_name": "Monsoon Off-Season (SAMPLE)",
+  "start_date": "2027-06-01"
+ }
+]

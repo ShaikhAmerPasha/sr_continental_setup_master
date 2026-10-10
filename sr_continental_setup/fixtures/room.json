@@ -1,0 +1,80 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Room",
+  "floor": "1",
+  "housekeeping_status": "Clean",
+  "modified": "2026-10-10 13:01:26.875925",
+  "name": "SR Continental-101",
+  "notes": null,
+  "occupancy_status": "Vacant",
+  "property": "SR Continental",
+  "room_number": "101",
+  "room_type": "SR Continental-DLX"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Room",
+  "floor": "1",
+  "housekeeping_status": "Clean",
+  "modified": "2026-10-10 12:37:49.508065",
+  "name": "SR Continental-102",
+  "notes": null,
+  "occupancy_status": "Occupied",
+  "property": "SR Continental",
+  "room_number": "102",
+  "room_type": "SR Continental-DLX"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Room",
+  "floor": "1",
+  "housekeeping_status": "Clean",
+  "modified": "2026-10-10 14:15:46.101319",
+  "name": "SR Continental-103",
+  "notes": "t",
+  "occupancy_status": "Vacant",
+  "property": "SR Continental",
+  "room_number": "103",
+  "room_type": "SR Continental-DLX"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Room",
+  "floor": "2",
+  "housekeeping_status": "Clean",
+  "modified": "2026-10-10 14:04:42.496825",
+  "name": "SR Continental-201",
+  "notes": null,
+  "occupancy_status": "Vacant",
+  "property": "SR Continental",
+  "room_number": "201",
+  "room_type": "SR Continental-PRM"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Room",
+  "floor": "2",
+  "housekeeping_status": "Clean",
+  "modified": "2026-10-10 14:04:42.555491",
+  "name": "SR Continental-202",
+  "notes": null,
+  "occupancy_status": "Vacant",
+  "property": "SR Continental",
+  "room_number": "202",
+  "room_type": "SR Continental-PRM"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Room",
+  "floor": "3",
+  "housekeeping_status": "Clean",
+  "modified": "2026-10-10 12:45:07.710695",
+  "name": "SR Continental-301",
+  "notes": null,
+  "occupancy_status": "Vacant",
+  "property": "SR Continental",
+  "room_number": "301",
+  "room_type": "SR Continental-STE"
+ }
+]

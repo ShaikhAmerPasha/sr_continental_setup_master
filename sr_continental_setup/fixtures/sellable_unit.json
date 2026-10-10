@@ -1,0 +1,140 @@
+[
+ {
+  "base_occupancy": 2,
+  "competition_group": "SR Continental::SR Continental-DLX",
+  "docstatus": 0,
+  "doctype": "Sellable Unit",
+  "external_ids": null,
+  "is_active": 1,
+  "is_auto_assignable": 1,
+  "max_occupants": 0,
+  "modified": "2026-10-08 22:08:37.541610",
+  "name": "SR Continental-Room 101",
+  "notes": null,
+  "physical_rooms": [
+   {
+    "room": "SR Continental-101"
+   }
+  ],
+  "property": "SR Continental",
+  "room_type": "SR Continental-DLX",
+  "turnover_buffer_hours": 0,
+  "unit_kind": "individual",
+  "unit_name": "Room 101"
+ },
+ {
+  "base_occupancy": 2,
+  "competition_group": "SR Continental::SR Continental-DLX",
+  "docstatus": 0,
+  "doctype": "Sellable Unit",
+  "external_ids": null,
+  "is_active": 1,
+  "is_auto_assignable": 1,
+  "max_occupants": 0,
+  "modified": "2026-10-08 22:08:37.573362",
+  "name": "SR Continental-Room 102",
+  "notes": null,
+  "physical_rooms": [
+   {
+    "room": "SR Continental-102"
+   }
+  ],
+  "property": "SR Continental",
+  "room_type": "SR Continental-DLX",
+  "turnover_buffer_hours": 0,
+  "unit_kind": "individual",
+  "unit_name": "Room 102"
+ },
+ {
+  "base_occupancy": 2,
+  "competition_group": "SR Continental::SR Continental-DLX",
+  "docstatus": 0,
+  "doctype": "Sellable Unit",
+  "external_ids": null,
+  "is_active": 1,
+  "is_auto_assignable": 1,
+  "max_occupants": 0,
+  "modified": "2026-10-08 22:08:37.583905",
+  "name": "SR Continental-Room 103",
+  "notes": null,
+  "physical_rooms": [
+   {
+    "room": "SR Continental-103"
+   }
+  ],
+  "property": "SR Continental",
+  "room_type": "SR Continental-DLX",
+  "turnover_buffer_hours": 0,
+  "unit_kind": "individual",
+  "unit_name": "Room 103"
+ },
+ {
+  "base_occupancy": 2,
+  "competition_group": "SR Continental::SR Continental-PRM",
+  "docstatus": 0,
+  "doctype": "Sellable Unit",
+  "external_ids": null,
+  "is_active": 1,
+  "is_auto_assignable": 1,
+  "max_occupants": 0,
+  "modified": "2026-10-08 22:08:37.589731",
+  "name": "SR Continental-Room 201",
+  "notes": null,
+  "physical_rooms": [
+   {
+    "room": "SR Continental-201"
+   }
+  ],
+  "property": "SR Continental",
+  "room_type": "SR Continental-PRM",
+  "turnover_buffer_hours": 0,
+  "unit_kind": "individual",
+  "unit_name": "Room 201"
+ },
+ {
+  "base_occupancy": 2,
+  "competition_group": "SR Continental::SR Continental-PRM",
+  "docstatus": 0,
+  "doctype": "Sellable Unit",
+  "external_ids": null,
+  "is_active": 1,
+  "is_auto_assignable": 1,
+  "max_occupants": 0,
+  "modified": "2026-10-08 22:08:37.594074",
+  "name": "SR Continental-Room 202",
+  "notes": null,
+  "physical_rooms": [
+   {
+    "room": "SR Continental-202"
+   }
+  ],
+  "property": "SR Continental",
+  "room_type": "SR Continental-PRM",
+  "turnover_buffer_hours": 0,
+  "unit_kind": "individual",
+  "unit_name": "Room 202"
+ },
+ {
+  "base_occupancy": 2,
+  "competition_group": "SR Continental::SR Continental-STE",
+  "docstatus": 0,
+  "doctype": "Sellable Unit",
+  "external_ids": null,
+  "is_active": 1,
+  "is_auto_assignable": 1,
+  "max_occupants": 0,
+  "modified": "2026-10-08 22:08:37.599888",
+  "name": "SR Continental-Room 301",
+  "notes": null,
+  "physical_rooms": [
+   {
+    "room": "SR Continental-301"
+   }
+  ],
+  "property": "SR Continental",
+  "room_type": "SR Continental-STE",
+  "turnover_buffer_hours": 0,
+  "unit_kind": "individual",
+  "unit_name": "Room 301"
+ }
+]
