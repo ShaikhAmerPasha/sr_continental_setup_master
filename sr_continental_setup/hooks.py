@@ -283,4 +283,6 @@ fixtures = [
 ]
 
 after_install = "sr_continental_setup.install.after_install"
+after_sync = ["sr_continental_setup.install.after_migrate"]
+before_migrate = ["sr_continental_setup.install.before_migrate"]
 after_migrate = ["sr_continental_setup.install.after_migrate"]

@@ -14,8 +14,20 @@ def after_install():
 	set_business_date_if_blank()
 
 
+def before_migrate():
+	"""Fixture sync blanks the hotel date, so remember it first."""
+	prop = frappe.db.get_value("Property", {}, "name")
+	if prop:
+		date = frappe.db.get_value("Property", prop, "business_date")
+		frappe.db.set_default("sr_saved_business_date", str(date) if date else "")
+
+
 def after_migrate():
 	ensure_users_and_cashiers()
+	saved = frappe.db.get_default("sr_saved_business_date")
+	prop = frappe.db.get_value("Property", {}, "name")
+	if saved and prop and not frappe.db.get_value("Property", prop, "business_date"):
+		frappe.db.set_value("Property", prop, "business_date", saved)
 	set_business_date_if_blank()
 
 

@@ -1,35 +1,74 @@
 [
  {
   "ceiling_price": 4500.0,
+  "days_of_week": null,
   "disabled": 0,
   "docstatus": 0,
   "doctype": "Rate Guardrail",
   "floor_price": 1800.0,
-  "modified": "2026-10-10 12:28:17.617383",
+  "modified": "2026-10-25 15:59:27.999234",
   "name": "GUARD-0037",
   "property": "SR Continental",
   "room_type": "SR Continental-DLX"
  },
  {
   "ceiling_price": 6000.0,
+  "days_of_week": null,
   "disabled": 0,
   "docstatus": 0,
   "doctype": "Rate Guardrail",
   "floor_price": 2500.0,
-  "modified": "2026-10-10 12:28:17.630738",
+  "modified": "2026-10-25 15:59:28.022389",
   "name": "GUARD-0038",
   "property": "SR Continental",
   "room_type": "SR Continental-PRM"
  },
  {
   "ceiling_price": 9000.0,
+  "days_of_week": null,
   "disabled": 0,
   "docstatus": 0,
   "doctype": "Rate Guardrail",
   "floor_price": 3500.0,
-  "modified": "2026-10-10 12:28:17.641925",
+  "modified": "2026-10-25 15:59:28.032744",
   "name": "GUARD-0039",
   "property": "SR Continental",
   "room_type": "SR Continental-STE"
+ },
+ {
+  "ceiling_price": 4500.0,
+  "days_of_week": null,
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Rate Guardrail",
+  "floor_price": 1800.0,
+  "modified": "2026-10-25 15:59:28.006139",
+  "name": "GUARD-1030",
+  "property": "SR Continental",
+  "room_type": "SR Continental-DLXT"
+ },
+ {
+  "ceiling_price": 6000.0,
+  "days_of_week": null,
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Rate Guardrail",
+  "floor_price": 2500.0,
+  "modified": "2026-10-25 15:59:28.025396",
+  "name": "GUARD-1031",
+  "property": "SR Continental",
+  "room_type": "SR Continental-PRMT"
+ },
+ {
+  "ceiling_price": 7500.0,
+  "days_of_week": null,
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Rate Guardrail",
+  "floor_price": 3000.0,
+  "modified": "2026-10-25 15:59:28.028260",
+  "name": "GUARD-1032",
+  "property": "SR Continental",
+  "room_type": "SR Continental-SPRM"
  }
 ]

@@ -1,5 +1,50 @@
 [
  {
+  "courses": [
+   {
+    "choice_of": 1,
+    "course": "Starters",
+    "dishes": "Paneer, Tikka",
+    "is_live_counter": 0
+   }
+  ],
+  "cuisine": null,
+  "disabled": 0,
+  "dish_options": [
+   {
+    "course": "Starters",
+    "dish": "BDISH-00298",
+    "dish_name": "Test Paneer",
+    "food_type": "Veg",
+    "is_default": 1,
+    "supplement_per_pax": 0.0
+   },
+   {
+    "course": "Starters",
+    "dish": "BDISH-00299",
+    "dish_name": "Test Tikka",
+    "food_type": "Non-Veg",
+    "is_default": 0,
+    "supplement_per_pax": 150.0
+   }
+  ],
+  "docstatus": 0,
+  "doctype": "Banquet Menu",
+  "exclusions": null,
+  "food_type": "Veg",
+  "gst_rate": 5.0,
+  "inclusions": null,
+  "meal_period": "Dinner",
+  "menu_code": null,
+  "menu_name": "Test Buffet",
+  "min_pax": 100,
+  "modified": "2026-10-19 12:41:28.608932",
+  "name": "BMENU-00300",
+  "property": "TEST Banquet Hotel",
+  "rate_per_pax": 1200.0,
+  "service_style": "Buffet"
+ },
+ {
   "courses": [],
   "cuisine": "North Indian",
   "disabled": 0,
