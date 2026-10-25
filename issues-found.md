@@ -7,7 +7,7 @@ How to read this list
 - Under each issue: **How to repeat it** (what to click), **What happens**, and **What should happen**.
 - Sign in as Administrator unless the steps say another user. Left menu names are written in **bold**.
 - Some issues were found by calling the system directly because the screen has no way to do the step. These are marked "No screen". They are still real, because other tools (the AI assistant, the API) can reach them.
-- No Kamra files were changed during testing.
+- No Kamra files were changed during testing. The fix for issue 39 was made later in a separate fork of Kamra.
 
 ---
 
@@ -62,15 +62,6 @@ How to repeat it
 3. Click **New booking**. Type a name and phone. Pick Suite Room. Set Check in 2026 10 20 and Nights 2. Click **Confirm booking**.
 What happens: The booking is saved as Confirmed, but with no room.
 What should happen: The system says the room type is sold out.
-
-### 25. An expired voucher still gives the discount
-How to repeat it
-1. Click **Revenue**, then **Vouchers**. Note FLAT500 is valid until 31 March 2027 (or WELCOME10, valid until 31 March 2027).
-2. Click **New booking**. Type a name and phone. Pick Deluxe Room.
-3. Set **Check in** to 10 June 2027 and **Nights** to 2.
-4. Type `WELCOME10` in **Voucher**. Read the **Quote** on the right.
-What happens: The quote shows 10 percent off (4,016.25 instead of 4,462.50) and **Confirm booking** works.
-What should happen: "Voucher has expired" and no discount.
 
 ### 26. Banquet: any amount can be received, and the invoice and close out work before the event
 How to repeat it
@@ -245,6 +236,24 @@ What should happen: One total. The Billing box should show the room charge the g
 Workaround for staff: Before check out open the bill and take the amount the check out message asks for.
 
 ---
+
+### 25. A voucher is checked against today, not the stay date
+How to repeat it
+1. Click **Revenue**, then **Vouchers**. Note WELCOME10 is valid until 31 March 2027.
+2. Click **New booking**. Type a name and phone. Pick Deluxe Room.
+3. Set **Check in** to 10 June 2027 and **Nights** to 2.
+4. Type `WELCOME10` in **Voucher**. Read the **Quote** on the right.
+What happens: The quote shows 10 percent off, because today is before 31 March 2027. A voucher that has really expired (end date in the past) is refused with "Voucher ... expired on ...". So the check works, but it uses today and not the check in date.
+What should happen: The owner decides. Either a voucher is valid when you book (as now) or valid for the stay dates. This is a policy question, not a fault.
+
+### 39. A saved booking cannot be amended when its voucher is used up or expired
+How to repeat it
+1. Click **Revenue**, then **Vouchers**, then **New**. Make a voucher with **Max Uses** set to 1 and save.
+2. Click **New booking**, type the voucher code and confirm the booking.
+3. Open that booking and click **Amend stay**. Change the nights and save.
+What happens: The error "Voucher ... has been fully redeemed" appears, because the booking's own use counts against the limit. The same error type appears when the voucher end date passes after the booking was made, or when the voucher is disabled.
+What should happen: A booking keeps the voucher it was made with. The dates and use limit are checked only when the voucher is first added.
+Status: Fixed in the fork branch `fix/voucher-recheck-on-existing-booking`.
 
 ## Low
 
