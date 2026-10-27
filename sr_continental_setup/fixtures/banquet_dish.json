@@ -1,52 +1,6 @@
 [
  {
   "allergens": null,
-  "cost_per_portion": 8.0,
-  "course_type": "Starters",
-  "description": null,
-  "disabled": 0,
-  "dish_name": "Test Paneer",
-  "docstatus": 0,
-  "doctype": "Banquet Dish",
-  "food_type": "Veg",
-  "kitchen": "Tandoor",
-  "modified": "2026-10-19 12:41:28.599699",
-  "name": "BDISH-00298",
-  "portion_per_pax": 1.0,
-  "property": "TEST Banquet Hotel",
-  "recipe": [
-   {
-    "ingredient": "ING-00296",
-    "note": null,
-    "qty": 0.2
-   }
-  ]
- },
- {
-  "allergens": null,
-  "cost_per_portion": 30.0,
-  "course_type": "Starters",
-  "description": null,
-  "disabled": 0,
-  "dish_name": "Test Tikka",
-  "docstatus": 0,
-  "doctype": "Banquet Dish",
-  "food_type": "Non-Veg",
-  "kitchen": "Tandoor",
-  "modified": "2026-10-19 12:41:28.604370",
-  "name": "BDISH-00299",
-  "portion_per_pax": 1.0,
-  "property": "TEST Banquet Hotel",
-  "recipe": [
-   {
-    "ingredient": "ING-00297",
-    "note": null,
-    "qty": 0.1
-   }
-  ]
- },
- {
-  "allergens": null,
   "cost_per_portion": 60.0,
   "course_type": "Starters",
   "description": null,
