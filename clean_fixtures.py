@@ -38,7 +38,7 @@ edit("property", drop(["business_date"]))              # set to today on install
 edit("menu_item", drop(["recipe"]))                    # ingredient names differ per site
 edit("city_ledger_account", setval(balance=0))         # no money owed on a new site
 edit("discount_voucher", setval(times_used=0))         # no vouchers used yet
-edit("room", setval(housekeeping_status="Clean"))      # all rooms start clean
+edit("room", drop(["occupancy_status", "housekeeping_status"]))  # live state, not master data: a migrate must not reset it
 edit("banquet_checklist_template",
      lambda rows: [r for r in rows if r.get("event_type")])  # drop the unnamed copies made by confirming a function
 for stale in ("ingredient", "ingredient_stock"):
