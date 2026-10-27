@@ -8,7 +8,9 @@
   "notes": null,
   "property": "SR Continental",
   "room_number": "101",
-  "room_type": "SR Continental-SPRM"
+  "room_type": "SR Continental-SPRM",
+  "occupancy_status": "Vacant",
+  "housekeeping_status": "Clean"
  },
  {
   "docstatus": 0,
@@ -19,7 +21,9 @@
   "notes": null,
   "property": "SR Continental",
   "room_number": "102",
-  "room_type": "SR Continental-PRM"
+  "room_type": "SR Continental-PRM",
+  "occupancy_status": "Vacant",
+  "housekeeping_status": "Clean"
  },
  {
   "docstatus": 0,
@@ -30,7 +34,9 @@
   "notes": null,
   "property": "SR Continental",
   "room_number": "201",
-  "room_type": "SR Continental-DLX"
+  "room_type": "SR Continental-DLX",
+  "occupancy_status": "Vacant",
+  "housekeeping_status": "Clean"
  },
  {
   "docstatus": 0,
@@ -41,7 +47,9 @@
   "notes": null,
   "property": "SR Continental",
   "room_number": "202",
-  "room_type": "SR Continental-DLX"
+  "room_type": "SR Continental-DLX",
+  "occupancy_status": "Vacant",
+  "housekeeping_status": "Clean"
  },
  {
   "docstatus": 0,
@@ -52,7 +60,9 @@
   "notes": null,
   "property": "SR Continental",
   "room_number": "301",
-  "room_type": "SR Continental-DLX"
+  "room_type": "SR Continental-DLX",
+  "occupancy_status": "Vacant",
+  "housekeeping_status": "Clean"
  },
  {
   "docstatus": 0,
@@ -63,7 +73,9 @@
   "notes": null,
   "property": "SR Continental",
   "room_number": "302",
-  "room_type": "SR Continental-DLX"
+  "room_type": "SR Continental-DLX",
+  "occupancy_status": "Vacant",
+  "housekeeping_status": "Clean"
  },
  {
   "docstatus": 0,
@@ -74,7 +86,9 @@
   "notes": null,
   "property": "SR Continental",
   "room_number": "401",
-  "room_type": "SR Continental-DLX"
+  "room_type": "SR Continental-DLX",
+  "occupancy_status": "Vacant",
+  "housekeeping_status": "Clean"
  },
  {
   "docstatus": 0,
@@ -85,7 +99,9 @@
   "notes": null,
   "property": "SR Continental",
   "room_number": "402",
-  "room_type": "SR Continental-DLX"
+  "room_type": "SR Continental-DLX",
+  "occupancy_status": "Vacant",
+  "housekeeping_status": "Clean"
  },
  {
   "docstatus": 0,
@@ -96,7 +112,9 @@
   "notes": null,
   "property": "SR Continental",
   "room_number": "203",
-  "room_type": "SR Continental-DLXT"
+  "room_type": "SR Continental-DLXT",
+  "occupancy_status": "Vacant",
+  "housekeeping_status": "Clean"
  },
  {
   "docstatus": 0,
@@ -107,7 +125,9 @@
   "notes": null,
   "property": "SR Continental",
   "room_number": "303",
-  "room_type": "SR Continental-DLXT"
+  "room_type": "SR Continental-DLXT",
+  "occupancy_status": "Vacant",
+  "housekeeping_status": "Clean"
  },
  {
   "docstatus": 0,
@@ -118,7 +138,9 @@
   "notes": null,
   "property": "SR Continental",
   "room_number": "403",
-  "room_type": "SR Continental-DLXT"
+  "room_type": "SR Continental-DLXT",
+  "occupancy_status": "Vacant",
+  "housekeeping_status": "Clean"
  },
  {
   "docstatus": 0,
@@ -129,7 +151,9 @@
   "notes": null,
   "property": "SR Continental",
   "room_number": "104",
-  "room_type": "SR Continental-PRM"
+  "room_type": "SR Continental-PRM",
+  "occupancy_status": "Vacant",
+  "housekeeping_status": "Clean"
  },
  {
   "docstatus": 0,
@@ -140,7 +164,9 @@
   "notes": null,
   "property": "SR Continental",
   "room_number": "205",
-  "room_type": "SR Continental-PRM"
+  "room_type": "SR Continental-PRM",
+  "occupancy_status": "Vacant",
+  "housekeeping_status": "Clean"
  },
  {
   "docstatus": 0,
@@ -151,7 +177,9 @@
   "notes": null,
   "property": "SR Continental",
   "room_number": "206",
-  "room_type": "SR Continental-PRM"
+  "room_type": "SR Continental-PRM",
+  "occupancy_status": "Vacant",
+  "housekeeping_status": "Clean"
  },
  {
   "docstatus": 0,
@@ -162,7 +190,9 @@
   "notes": null,
   "property": "SR Continental",
   "room_number": "207",
-  "room_type": "SR Continental-PRM"
+  "room_type": "SR Continental-PRM",
+  "occupancy_status": "Vacant",
+  "housekeeping_status": "Clean"
  },
  {
   "docstatus": 0,
@@ -173,7 +203,9 @@
   "notes": null,
   "property": "SR Continental",
   "room_number": "305",
-  "room_type": "SR Continental-PRM"
+  "room_type": "SR Continental-PRM",
+  "occupancy_status": "Vacant",
+  "housekeeping_status": "Clean"
  },
  {
   "docstatus": 0,
@@ -184,7 +216,9 @@
   "notes": null,
   "property": "SR Continental",
   "room_number": "306",
-  "room_type": "SR Continental-PRM"
+  "room_type": "SR Continental-PRM",
+  "occupancy_status": "Vacant",
+  "housekeeping_status": "Clean"
  },
  {
   "docstatus": 0,
@@ -195,7 +229,9 @@
   "notes": null,
   "property": "SR Continental",
   "room_number": "307",
-  "room_type": "SR Continental-PRM"
+  "room_type": "SR Continental-PRM",
+  "occupancy_status": "Vacant",
+  "housekeeping_status": "Clean"
  },
  {
   "docstatus": 0,
@@ -206,7 +242,9 @@
   "notes": null,
   "property": "SR Continental",
   "room_number": "405",
-  "room_type": "SR Continental-PRM"
+  "room_type": "SR Continental-PRM",
+  "occupancy_status": "Vacant",
+  "housekeeping_status": "Clean"
  },
  {
   "docstatus": 0,
@@ -217,7 +255,9 @@
   "notes": null,
   "property": "SR Continental",
   "room_number": "406",
-  "room_type": "SR Continental-PRM"
+  "room_type": "SR Continental-PRM",
+  "occupancy_status": "Vacant",
+  "housekeeping_status": "Clean"
  },
  {
   "docstatus": 0,
@@ -228,7 +268,9 @@
   "notes": null,
   "property": "SR Continental",
   "room_number": "407",
-  "room_type": "SR Continental-PRM"
+  "room_type": "SR Continental-PRM",
+  "occupancy_status": "Vacant",
+  "housekeeping_status": "Clean"
  },
  {
   "docstatus": 0,
@@ -239,7 +281,9 @@
   "notes": null,
   "property": "SR Continental",
   "room_number": "208",
-  "room_type": "SR Continental-PRMT"
+  "room_type": "SR Continental-PRMT",
+  "occupancy_status": "Vacant",
+  "housekeeping_status": "Clean"
  },
  {
   "docstatus": 0,
@@ -250,7 +294,9 @@
   "notes": null,
   "property": "SR Continental",
   "room_number": "308",
-  "room_type": "SR Continental-PRMT"
+  "room_type": "SR Continental-PRMT",
+  "occupancy_status": "Vacant",
+  "housekeeping_status": "Clean"
  },
  {
   "docstatus": 0,
@@ -261,7 +307,9 @@
   "notes": null,
   "property": "SR Continental",
   "room_number": "408",
-  "room_type": "SR Continental-PRMT"
+  "room_type": "SR Continental-PRMT",
+  "occupancy_status": "Vacant",
+  "housekeeping_status": "Clean"
  },
  {
   "docstatus": 0,
@@ -272,7 +320,9 @@
   "notes": null,
   "property": "SR Continental",
   "room_number": "204",
-  "room_type": "SR Continental-SPRM"
+  "room_type": "SR Continental-SPRM",
+  "occupancy_status": "Vacant",
+  "housekeeping_status": "Clean"
  },
  {
   "docstatus": 0,
@@ -283,7 +333,9 @@
   "notes": null,
   "property": "SR Continental",
   "room_number": "304",
-  "room_type": "SR Continental-SPRM"
+  "room_type": "SR Continental-SPRM",
+  "occupancy_status": "Vacant",
+  "housekeeping_status": "Clean"
  },
  {
   "docstatus": 0,
@@ -294,7 +346,9 @@
   "notes": null,
   "property": "SR Continental",
   "room_number": "404",
-  "room_type": "SR Continental-SPRM"
+  "room_type": "SR Continental-SPRM",
+  "occupancy_status": "Vacant",
+  "housekeeping_status": "Clean"
  },
  {
   "docstatus": 0,
@@ -305,7 +359,9 @@
   "notes": null,
   "property": "SR Continental",
   "room_number": "501",
-  "room_type": "SR Continental-STE"
+  "room_type": "SR Continental-STE",
+  "occupancy_status": "Vacant",
+  "housekeeping_status": "Clean"
  },
  {
   "docstatus": 0,
@@ -316,7 +372,9 @@
   "notes": null,
   "property": "SR Continental",
   "room_number": "502",
-  "room_type": "SR Continental-STE"
+  "room_type": "SR Continental-STE",
+  "occupancy_status": "Vacant",
+  "housekeeping_status": "Clean"
  },
  {
   "docstatus": 0,
@@ -327,6 +385,8 @@
   "notes": "t",
   "property": "SR Continental",
   "room_number": "103",
-  "room_type": "SR Continental-PRM"
+  "room_type": "SR Continental-PRM",
+  "occupancy_status": "Vacant",
+  "housekeeping_status": "Clean"
  }
 ]
