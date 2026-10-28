@@ -1,3 +1,5 @@
+import json
+
 import frappe
 from frappe.utils import today
 
@@ -15,7 +17,9 @@ def after_install():
 
 
 def before_migrate():
-	"""Fixture sync blanks the hotel date, so remember it first."""
+	"""Fixture sync blanks the hotel date and resets every room, so remember
+	both first."""
+	save_room_status()
 	prop = frappe.db.get_value("Property", {}, "name")
 	if prop:
 		date = frappe.db.get_value("Property", prop, "business_date")
@@ -23,6 +27,7 @@ def before_migrate():
 
 
 def after_migrate():
+	restore_room_status()
 	ensure_users_and_cashiers()
 	saved = frappe.db.get_default("sr_saved_business_date")
 	prop = frappe.db.get_value("Property", {}, "name")
@@ -51,3 +56,29 @@ def set_business_date_if_blank():
 	if prop and not frappe.db.get_value("Property", prop, "business_date"):
 		frappe.db.set_value("Property", prop, "business_date", today())
 		frappe.db.commit()
+
+
+ROOM_STATUS_DEFAULTS = {"occupancy_status": "Vacant", "housekeeping_status": "Clean"}
+
+
+def save_room_status():
+	"""Fixture sync deletes and re-inserts each room, which would free
+	occupied rooms and undo housekeeping. Keep the live values."""
+	rows = frappe.get_all("Room", fields=["name", *ROOM_STATUS_DEFAULTS], limit=0)
+	frappe.db.set_default("sr_saved_room_status", json.dumps(
+		{r.name: {k: r[k] for k in ROOM_STATUS_DEFAULTS} for r in rows}))
+
+
+def restore_room_status():
+	"""Put the live status back after the fixture sync. A room with no
+	status gets the default, because the Front Desk screen fails on a blank."""
+	saved = json.loads(frappe.db.get_default("sr_saved_room_status") or "{}")
+	rooms = frappe.get_all("Room", fields=["name", *ROOM_STATUS_DEFAULTS], limit=0)
+	for current in rooms:
+		name = current.name
+		values = {k: saved.get(name, {}).get(k) or current[k] or default
+		          for k, default in ROOM_STATUS_DEFAULTS.items()}
+		if any(values[k] != current[k] for k in values):
+			frappe.db.set_value("Room", name, values, update_modified=False)
+	frappe.db.set_default("sr_saved_room_status", "")
+	frappe.db.commit()
